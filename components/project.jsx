@@ -1,16 +1,21 @@
 import React from "react";
-import Image from "next/image";
-import NextJs from "../public/assets/nextjs.png"
+
+import NextJs from "../public/assets/nextjs.png";
+
+import ProjectItems from "./projectItems";
+
 const Project = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#524ddd]">Projects:</p>
         <h2 className="py-4">What I have Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#524ddd] to-[#709dff]">
-            <Image className="rounded-xl group-hover:opacity-10" src={NextJs} alt=""/>
-          </div>
+        <ProjectItems title="Hotel-Booking-Site" backgroundImg={NextJs} projectUrl="/property"/>
+        <ProjectItems title="Movie-Site" backgroundImg={NextJs} projectUrl="/property"/>
+        <ProjectItems title="Book-Site" backgroundImg={NextJs} projectUrl="/property"/>
+        <ProjectItems title="Tesodev-Task" backgroundImg={NextJs} projectUrl="/property"/>
+        <ProjectItems title="Anex-Task" backgroundImg={NextJs} projectUrl="/property"/>
         </div>
       </div>
     </div>

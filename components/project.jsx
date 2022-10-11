@@ -11,10 +11,10 @@ const Project = () => {
         <p className="text-xl tracking-widest uppercase text-[#524ddd]">Projects:</p>
         <h2 className="py-4">What I have Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-        <ProjectItems title="Hotel-Booking-Site" backgroundImg={NextJs} projectUrl="/property"/>
-        <ProjectItems title="Movie-Site" backgroundImg={NextJs} projectUrl="/property"/>
-        <ProjectItems title="Book-Site" backgroundImg={NextJs} projectUrl="/property"/>
-        <ProjectItems title="Tesodev-Task" backgroundImg={NextJs} projectUrl="/property"/>
+        <ProjectItems title="Hotel-Booking-Site" backgroundImg={NextJs} projectUrl="/hotelBooking"/>
+        <ProjectItems title="Movie-Site" backgroundImg={NextJs} projectUrl="/movieSite"/>
+        <ProjectItems title="Book-Site" backgroundImg={NextJs} projectUrl="/bookHouse"/>
+        <ProjectItems title="Tesodev-Task" backgroundImg={NextJs} projectUrl="/tesodevTask"/>
         <ProjectItems title="Anex-Task" backgroundImg={NextJs} projectUrl="/property"/>
         </div>
       </div>

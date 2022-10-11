@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {RiRadioButtonFill} from "react-icons/ri"
-import Hotel from "../public/assets/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg";
+import Tesodev from "../public/assets/teso.jpg";
 const tesodevTask = () => {
   return (
     <div className="w-full ">
-      <div className=" h-[50vh]  m-auto sm:grid grid-cols-1">
-        <Image src={Hotel} objectFit="cover" alt="" />
+      <div className=" h-[50vh] w-[50%] mt-8  m-auto sm:grid grid-cols-1 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
+        <Image src={Tesodev} objectFit="contain" alt="" />
       </div>
       <div className=" p-2  ">
         
